@@ -1,0 +1,401 @@
+/* 共同部分common.css */
+
+@font-face {
+    font-family: "icomoon";
+    src: url("../fonts/icomoon.eot?tomleg");
+    src: url("../fonts/icomoon.eot?tomleg#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?tomleg") format("truetype"), url("../fonts/icomoon.woff?tomleg") format("woff"), url("../fonts/icomoon.svg?tomleg#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1258px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* 头部样式 */
+
+.w {
+    width: 1258px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.common_head {
+    position: relative;
+    height: 49px;
+    line-height: 48px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+
+/* 左侧logo */
+
+.head_logo {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 115px;
+    height: 35px;
+}
+
+.head_logo img {
+    width: 115px;
+    height: 35px;
+}
+
+
+/* 右侧工具栏 */
+
+.tools {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    height: 16px;
+}
+
+.tools .user {
+    position: relative;
+    float: left;
+    margin-right: 39px;
+    cursor: pointer;
+    height: 51px;
+}
+
+.tools .user span {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 17px;
+    background: url(../images/user.png);
+    background-size: 15px 35px;
+}
+
+.tools .user span::after,
+.tools .lang span::after,
+.tools .search span::after {
+    position: absolute;
+    left: 28px;
+    top: 6px;
+    border-top: 5px solid #909090;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    width: 0;
+    height: 0;
+    content: '';
+}
+
+.tools .lang span::before,
+.tools .search span::before {
+    position: absolute;
+    top: 0;
+    left: -17px;
+    content: '';
+    width: 1px;
+    height: 16px;
+    background-color: #ddd;
+}
+
+.lang {
+    position: relative;
+    float: left;
+    padding-left: 15px;
+    margin-right: 55px;
+    cursor: pointer;
+    height: 51px;
+}
+
+.lang span {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    padding-left: 15px;
+    background: url(../images/zhong.png) no-repeat;
+    background-size: 15px 35px;
+}
+
+.tools .search {
+    float: left;
+    margin-right: 40px;
+}
+
+.search span {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(../images/search.png) no-repeat;
+    background-size: 15px 35px;
+    cursor: pointer;
+}
+
+.tools .menu {
+    float: left;
+    width: 34px;
+    height: 34px;
+    background: url(../images/menu.png) no-repeat;
+    background-size: 34px 68px;
+    margin-top: 4px;
+}
+
+.user span:hover {
+    background-position: 0 -17px;
+}
+
+.lang span:hover,
+.search span:hover {
+    background-position: 0 -20px;
+}
+
+.tools .menu:hover {
+    background-position: 0 -34px;
+}
+
+.user .login,
+.lang .lang_select {
+    display: none;
+    position: absolute;
+    top: 51px;
+    left: -17px;
+    width: 80px;
+    height: 69px;
+    background: url(../images/login-box1.png) no-repeat;
+}
+
+.lang .lang_select {
+    left: 0;
+}
+
+.user .login a,
+.lang .lang_select a {
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #474747;
+    text-align: center;
+}
+
+.user .login a:hover,
+.lang .lang_select a:hover {
+    color: #c2a680;
+}
+
+.search_input {
+    display: none;
+    position: absolute;
+    top: 49px;
+    right: 54px;
+    height: 40px;
+}
+
+.search_input input {
+    width: 280px;
+    height: 40px;
+    border: 1px solid #e3e3e3;
+    padding-left: 9px;
+}
+
+.search_input::after {
+    position: absolute;
+    display: block;
+    top: 13px;
+    right: 15px;
+    content: '';
+    width: 19px;
+    height: 19px;
+    background: url(../images/search_input.png) no-repeat;
+}
+
+.big_menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 9999px;
+    background: url(../images/nav_bg.jpg);
+    z-index: 999;
+}
+
+.big_menu .menu_content {
+    width: 1008px;
+    margin: 140px auto 0;
+}
+
+.big_menu p {
+    width: 18px;
+    height: 11px;
+    margin: 0 auto;
+}
+
+.big_menu p.icon1 {
+    margin-top: 9px;
+}
+
+.big_menu p.icon2 {
+    margin-top: 14px;
+}
+
+.big_menu .menu_content div {
+    width: 144px;
+    float: left;
+    margin-right: 0px;
+    text-align: center;
+}
+
+.big_menu div:last-child {
+    margin-right: 0;
+}
+
+.big_menu h1 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.big_menu dl {
+    margin-top: 11px;
+}
+
+.big_menu dl dd {
+    color: #eaa1a1;
+    line-height: 36px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.big_menu dl dd:hover {
+    color: #fff;
+}
+
+.big_menu .close_btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(../images/navbar_close.png) no-repeat;
+    transition: all .3s;
+}
+
+.close_btn:hover {
+    transform: rotate(180deg);
+}
+
+.nav_main {
+    position: absolute;
+    width: 790px;
+    top: 0;
+    left: 50%;
+    height: 48px;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.nav_main ul {
+    display: inline-block;
+    height: 48px;
+}
+
+.nav_main ul li {
+    position: relative;
+    float: left;
+    font-size: 14px;
+}
+
+.nav_main ul li a {
+    padding: 0 26px;
+    color: #474747;
+}
+
+.nav_main ul li a:hover {
+    color: #c2a680;
+}
+
+.nav_main ul li img.sanjiao {
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 30px;
+    width: 18px;
+    height: 10px;
+}
+
+.nav_child {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+}
+
+.child_item {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 50px;
+    background: url(../images/black.png);
+}
+
+.p {
+    display: inline-block;
+    height: 50px;
+}
+
+.child_item .p p {
+    float: left;
+    font-size: 14px;
+    background: url(../images/img6.png) no-repeat right 17px;
+    padding-right: 19px;
+    margin-right: 17px;
+}
+
+.child_item .p p:last-child {
+    background: none;
+}
+
+.child_item .p p a {
+    color: #fff;
+}
+
+.child_item .p p a:hover {
+    color: #e8c699;
+}
+
+
+/* 头部links */
+
+.head_links {
+    font-size: 14px;
+    margin-top: 14px!important;
+}
+
+.head_links a {
+    color: #707070;
+}
+
+.head_links span {
+    margin: 0 14px;
+    color: #707070;
+}

@@ -1,0 +1,685 @@
+.nav {
+  margin-top: 65px;
+}
+
+.nav ul li {
+  font-size: 16px;
+}
+
+/* 第一模块 */
+
+.biaoti {
+  text-align: center;
+  margin-top: 40px;
+  height: 35px;
+  /* background-color: aquamarine; */
+}
+
+.biaoti span {
+  font-size: 28px;
+  margin: 0 10px;
+  line-height: 35px;
+  color: #474747;
+  font-weight: 400;
+}
+
+.biaoti img {
+  height: 100%;
+  width: 25px;
+}
+
+.navigate {
+  width: 1258px;
+  height: 590px;
+  background-color: #7a2221;
+  margin-top: 30px;
+  position: relative;
+}
+
+.biaoti_1 {
+  position: absolute;
+  top: 100px;
+  left: 96px;
+}
+
+.biaoti_1 span {
+  font-size: 28px;
+  margin: 0 10px;
+  line-height: 35px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.biaoti_1 img {
+  height: 100%;
+  width: 25px;
+  margin-bottom: 15px;
+}
+
+.navigate .p1 {
+  padding-top: 160px;
+  color: #fff;
+  font-size: 14px;
+  text-indent: 6em;
+}
+
+.list span {
+  display: inline-block;
+  width: 90px;
+  height: 80px;
+  font-size: 20px;
+  margin-top: 55px;
+  margin-right: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.list a span p {
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+
+.list .more span p {
+  font-size: 12px;
+}
+
+.list {
+  margin-left: 60px;
+  z-index: 2;
+  position: relative;
+}
+
+.list a:hover span {
+  width: 90px;
+  height: 80px;
+  border-radius: 5px;
+  background-color: #942523;
+}
+
+.list a:last-child:hover span {
+  background: none;
+}
+
+.map {
+  width: 90px;
+  height: 110px;
+  margin-left: 66px;
+  position: absolute;
+  bottom: 90px;
+  left: 0px;
+  /* margin-top: 56px; */
+}
+
+.map .ditu {
+  text-align: center;
+  margin-left: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.gugong {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.architecture {
+  display: none;
+  position: absolute;
+  top: 150px;
+  right: 60px;
+  z-index: 1;
+}
+
+/* 第二模块 */
+
+.ebn {
+  width: 1258px;
+  height: 770px;
+  /* background-color: bisque; */
+  margin-top: 50px;
+  position: relative;
+}
+
+.ebn .cangp {
+  margin: 25px 25px;
+}
+
+.ebn1 {
+  width: 50%;
+  height: 240px;
+  background-color: #f4f4f4;
+  /* background-color: blueviolet; */
+  position: relative;
+}
+
+.biaoti_5 {
+  margin-top: 50px;
+  margin-right: 40px;
+  height: 35px;
+  float: right;
+  /* background-color: aquamarine; */
+}
+
+.biaoti_5 span {
+  font-size: 26px;
+  margin: 0 4px;
+  line-height: 35px;
+  color: #474747;
+  font-weight: 400;
+}
+
+.biaoti_5 img {
+  height: 100%;
+  width: 23px;
+}
+
+.ebn1 .zhen {
+  width: 366px;
+  height: 64px;
+  position: absolute;
+  top: 110px;
+  right: 25px;
+  font-size: 14px;
+  text-indent: 2em;
+}
+
+.ebn1 > img {
+  display: none;
+}
+
+.ebn2 {
+  width: 50%;
+  height: 240px;
+  background-color: brown;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.ebn3 {
+  width: 50%;
+  height: 530px;
+  background-color: #2f2b25;
+  position: relative;
+}
+
+.ebn3 a img {
+  position: absolute;
+  top: 300px;
+  left: 39px;
+  /* margin-top: 120px;
+    margin-left: 35px; */
+}
+
+.ebn3 .nu {
+  position: absolute;
+  top: 100px;
+  right: 140px;
+  color: #fff;
+}
+
+.ebn3 .nu h4 {
+  width: 203px;
+  height: 39px;
+  background: url(../images/s579d744ace9ca.png) no-repeat;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+.ebn3 .nu h4 a {
+  font-size: 18px;
+  color: #fff;
+  line-height: 39px;
+}
+
+.ebn3 .nu .img {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.ebn3 .nu .btn3 {
+  display: inline-block;
+  width: 110px;
+  height: 35px;
+  background: url(../images/btn10.png) no-repeat;
+  text-align: center;
+  line-height: 35px;
+  color: #fff;
+  margin: 20px 0 0 46px;
+}
+
+.ebn3 .nu .num {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.ebn3 .nu .num span {
+  position: relative;
+}
+
+.ebn3 .nu .num span i {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  width: 44px;
+  height: 42px;
+  background: url(../images/jian1.png) no-repeat;
+}
+
+.nu h3 {
+  font-size: 20px;
+}
+
+/* .ebn3 .nu .num h4 {
+  font-size: 20px;
+} */
+
+.ebn4 {
+  width: 50%;
+  height: 265px;
+  background-color: cyan;
+  position: absolute;
+  right: 0px;
+  top: 240px;
+}
+
+.ebn4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.ebn5 {
+  width: 50%;
+  height: 265px;
+  background-color: red;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+}
+
+.ebn5_1,
+.ebn5_2 {
+  width: 50%;
+  height: 100%;
+  transition: all 1s;
+}
+
+.ebn5_1 {
+  background: url(../images/s5e5f50a429342.jpg) no-repeat center center;
+  background-size: 314.5px 265px;
+}
+
+.ebn5_2 {
+  background: url(../images/s5e5f50dc09aa3.jpg) no-repeat center center;
+  background-size: 314.5px 265px;
+}
+
+.ebn5 img {
+  width: 100%;
+  height: 100%;
+}
+
+.ebn5_1:hover,
+.ebn5_2:hover {
+  background-size: 377px 318px;
+}
+
+.ebn5_2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.ebn5 .p {
+  width: 230px;
+  height: 175px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 25px;
+}
+
+/* 第三模块 */
+
+.biaoti_2 {
+  text-align: center;
+  margin-top: 140px;
+  height: 35px;
+  /* background-color: aquamarine; */
+}
+
+.biaoti_2 span {
+  font-size: 28px;
+  margin: 0 10px;
+  line-height: 35px;
+  color: #474747;
+  font-weight: 400;
+}
+
+.biaoti_2 img {
+  height: 100%;
+  width: 25px;
+}
+
+.dj {
+  width: 1258px;
+  height: 562px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.dj img {
+  width: 100%;
+}
+
+.dj .dj_1 {
+  width: 1058px;
+  height: 500px;
+  position: absolute;
+  top: 105px;
+  left: 100px;
+}
+
+.dj .dj_1 img {
+  position: absolute;
+  top: 200px;
+  left: 0;
+}
+
+.dj .text a span {
+  display: inline-block;
+  width: 10px;
+  height: 150px;
+  vertical-align: middle;
+  font-size: 16px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.dj .text {
+  position: absolute;
+  top: 60px;
+}
+
+.dj .text a {
+  display: none;
+}
+
+.dj .text a span img {
+  background-size: 16px;
+  width: 6px;
+  height: 16px;
+  margin-bottom: 8px;
+  margin-left: 3px;
+  text-align: center;
+}
+
+.dj .dj_2 {
+  display: none;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  bottom: 95px;
+  left: 550px;
+}
+
+/* 第四模块 */
+
+.lishi {
+  width: 167px;
+  height: 179px;
+  margin-top: 80px;
+  position: relative;
+  text-align: center;
+}
+
+.lishi img {
+  width: 0;
+}
+
+.lishi_1 {
+  width: 885px;
+  height: 65px;
+  margin: 0 auto;
+}
+
+.lishi_1 p {
+  display: inline-block;
+  /* text-align: center; */
+  text-indent: 2em;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.zhuanpan {
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 60px;
+}
+
+.zhuanpan img {
+  margin-left: 45px;
+}
+
+.gengduo {
+  width: 200px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 16px;
+  margin: 25px auto;
+  background: url("../images/btn10.png") no-repeat 40px;
+}
+
+.lis .gongt a span {
+  margin-left: 150px;
+  margin-right: 5px;
+  margin-bottom: 50px;
+  font-size: 17px;
+  color: #fff;
+}
+
+.lis {
+  position: relative;
+}
+
+.lis .gongt {
+  position: absolute;
+  bottom: 135px;
+}
+
+.lis .zhuanpan img {
+  transition: all 1s;
+  transform-origin: 88.5px 88px;
+}
+
+/* 第五模块 */
+
+.biaoti_3 {
+  text-align: center;
+  margin-top: 75px;
+  height: 35px;
+  /* background-color: aquamarine; */
+}
+
+.biaoti_3 span {
+  font-size: 28px;
+  margin: 0 10px;
+  line-height: 35px;
+  color: #474747;
+  font-weight: 400;
+}
+
+.biaoti_3 img {
+  height: 100%;
+  width: 25px;
+}
+
+.wby {
+  width: 1258px;
+  height: 492px;
+  background-color: royalblue;
+  margin-top: 60px;
+  position: relative;
+}
+
+.wby .wby-z {
+  width: 438px;
+  height: 100%;
+  background-color: #23374a;
+  text-align: center;
+}
+
+.wby-z img {
+  width: 0;
+  /* width: 180px; */
+  height: 180px;
+  margin-top: 50px;
+}
+
+.wby-z p {
+  margin: 20px 60px;
+  font-size: 14px;
+  color: #fff;
+  text-indent: 2em;
+}
+
+.wby .wby-y {
+  width: 820px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  overflow: hidden;
+}
+
+.wby .wby-y ol {
+  position: absolute;
+  right: 30px;
+  bottom: 25px;
+}
+
+.wby .wby-y ol li {
+  float: left;
+  width: 27px;
+  height: 24px;
+  background: url(../images/dian2.png) no-repeat;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.wby .wby-y ol li:last-child {
+  margin-right: 0;
+}
+
+.wby .wby-y ul {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.wby .wby-y ul li {
+  float: left;
+  cursor: pointer;
+}
+
+.gengduo2 {
+  /* width: 300x; */
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 16px;
+  margin: 25px auto;
+  background: url("../images/btn10.png") no-repeat 140px;
+  background-size: 155px 35px;
+}
+
+/* 第六模块 */
+
+.biaoti_4 {
+  text-align: center;
+  margin-top: 75px;
+  height: 35px;
+  /* background-color: aquamarine; */
+}
+
+.biaoti_4 span {
+  font-size: 28px;
+  margin: 0 10px;
+  line-height: 35px;
+  color: #474747;
+  font-weight: 400;
+}
+
+.biaoti_4 img {
+  height: 100%;
+  width: 25px;
+}
+
+.zhuanti {
+  width: 1258px;
+  height: 350px;
+  margin-top: 25px;
+}
+
+.zhuanti li {
+  position: relative;
+  width: 238px;
+  height: 350px;
+  float: left;
+  margin-right: 12px;
+  /* display: inline-block; */
+}
+
+.zhuanti li > img {
+  width: 100%;
+  height: 100%;
+}
+
+.zhuanti li > div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 117px;
+  height: 350px;
+  background: url(../images/mask90.png);
+}
+
+.zhuanti li > div span {
+  display: block;
+  width: 24px;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 67px 0 0 48px;
+}
+
+.zhuanti li > div img {
+  position: absolute;
+  top: 47px;
+  left: 9px;
+  width: 99px;
+  height: 99px;
+}
+
+.zhuanti .zhuanti1.rq {
+  margin-right: 0px;
+}
+
+.zhuanti .zhuanti1 ul {
+  position: relative;
+}
+
+/* .zhuanti .zhuanti1 ul li div {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 119px;
+  height: 350px;
+  background-color: #ddd6c1;
+} */
